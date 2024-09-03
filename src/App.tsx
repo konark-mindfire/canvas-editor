@@ -10,11 +10,11 @@ function App() {
     image: true,
   };
 
-  const handleChange = (data) => {
+  const handleChange = (data:any) => {
     console.log("test ->", data);
   };
 
-  const handleSelectedText = (text) => {
+  const handleSelectedText = (text:any) => {
     console.log(text);
   };
 
